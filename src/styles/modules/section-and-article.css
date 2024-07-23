@@ -1,0 +1,28 @@
+/* Section/Article */
+
+section,
+article {
+    margin-bottom: 3em;
+}
+
+section > :last-child,
+section:last-child,
+article > :last-child,
+article:last-child {
+    margin-bottom: 0;
+}
+
+header {
+    margin: 0 0 1.5em 0;
+}
+
+header > p {
+    margin: 0.5em 0 0 0;
+    color: #aaa;
+}
+
+@media screen and (max-width: 736px) {
+    header {
+        margin: 0 0 1em 0;
+    }
+}

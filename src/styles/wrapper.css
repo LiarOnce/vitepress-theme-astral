@@ -1,0 +1,61 @@
+/* Wrapper */
+
+#wrapper {
+    width: 45em;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 100%;
+    padding: 4em 0;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+body.is-preload #wrapper {
+    opacity: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    #wrapper {
+        padding: 3em 0;
+        max-width: calc(100% - 6em);
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #wrapper {
+        padding: 1.5em 0;
+        max-width: calc(100% - 8em);
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #wrapper {
+        padding: 1em 0;
+        max-width: calc(100% - 2em);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #wrapper {
+        padding: 1em 0;
+        max-width: 100%;
+    }
+}

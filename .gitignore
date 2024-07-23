@@ -1,4 +1,35 @@
-node_modules
-template
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+datas*.json
+locales*.json
 
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
 pnpm-lock.yaml
+/cypress/videos/
+/cypress/screenshots/
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+template

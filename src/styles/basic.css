@@ -1,0 +1,247 @@
+/*
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*
+	Astral Port to VitePress by LiarOnce
+    liaronce.com | @LiarOnce_P
+    https://github.com/LiarOnce
+*/
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+/* Basic */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("../images/overlay.png"), url("../images/bg.jpg");
+    background-repeat: repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+body.is-preload *,
+body.is-preload *:before,
+body.is-preload *:after {
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
+
+body,
+input,
+textarea,
+select {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    color: #777777;
+    font-size: 20pt;
+    line-height: 1.75em;
+}
+
+@media screen and (max-width: 1680px) {
+    body,
+    input,
+    textarea,
+    select {
+        font-size: 15pt;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body,
+    input,
+    textarea,
+    select {
+        font-size: 14pt;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    body,
+    input,
+    textarea,
+    select {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body,
+    input,
+    textarea,
+    select {
+        font-size: 11pt;
+    }
+}
+
+strong,
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #363636;
+}
+
+h1 {
+    font-size: 2.4em;
+    letter-spacing: -0.015em;
+}
+
+h2 {
+    font-size: 1.8em;
+    letter-spacing: -0.015em;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.25em;
+    letter-spacing: -0.015em;
+}
+
+@media screen and (max-width: 736px) {
+    h1 {
+        font-size: 1.75em;
+    }
+
+    h2 {
+        font-size: 1.375em;
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1em;
+    }
+}
+
+blockquote {
+    border-left: solid 0.5em #ddd;
+    padding: 1em 0 1em 2em;
+    font-style: italic;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+hr {
+    border: 0;
+    border-top: solid 1px #ddd;
+    padding: 1.5em 0 0 0;
+    margin: 1.75em 0 0 0;
+}
+
+sub {
+    position: relative;
+    top: 0.5em;
+    font-size: 0.8em;
+}
+
+sup {
+    position: relative;
+    top: -0.5em;
+    font-size: 0.8em;
+}
+
+br.clear {
+    clear: both;
+}
+
+p,
+ul,
+ol,
+dl,
+table,
+blockquote,
+form {
+    margin-bottom: 2em;
+}

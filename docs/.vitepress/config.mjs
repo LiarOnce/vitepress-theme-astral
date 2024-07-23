@@ -1,7 +1,16 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
+import { resolve } from 'path'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Astral",
-  description: "A theme port for VitePress"
-})
+    title: "Astral",
+    lang: "zh-CN",
+    description: "A theme port for VitePress",
+    themeConfig: {},
+    vite: {
+        resolve: {
+            alias: {
+                "@src": resolve(__dirname, "../../src"),
+            },
+        },
+    },
+});
