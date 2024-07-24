@@ -5,7 +5,10 @@ export default defineConfig({
     title: "Astral",
     lang: "zh-CN",
     description: "A theme port for VitePress",
-    themeConfig: {},
+    themeConfig: {
+        avatar: "",
+        background: "",
+    },
     vite: {
         resolve: {
             alias: {

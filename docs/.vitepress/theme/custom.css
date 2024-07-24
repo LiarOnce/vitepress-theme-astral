@@ -1,0 +1,9 @@
+
+html {
+  font-family: Arial, Helvetica;
+}
+
+body {
+  /* background-image: url("@src/images/overlay.png"), url("@src/images/bg.jpg"); */
+  background-image: linear-gradient(160deg,#f0b8a7, #e8b09f, #dfa796, #d09188, #8b5f7a);
+}

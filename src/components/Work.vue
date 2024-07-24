@@ -1,14 +1,10 @@
 <template>
     <!-- Work -->
-    <article id="work" class="panel">
-        <Content />
-    </article>
+    <Content />
 </template>
 
 <script setup>
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

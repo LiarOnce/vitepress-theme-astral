@@ -1,0 +1,27 @@
+/*
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*
+	Astral Port to VitePress by LiarOnce
+    liaronce.com | @LiarOnce_P
+    https://liaronce.com
+    https://github.com/LiarOnce
+*/
+
+@import url("./mainform/basic.css");
+@import url("./mainform/footer.css");
+@import url("./mainform/main.css");
+@import url("./mainform/wrapper.css");
+
+@import url("./modules/buttons.css");
+@import url("./modules/form.css");
+@import url("./modules/icons.css");
+@import url("./modules/image.css");
+@import url("./modules/lists.css");
+@import url("./modules/nav.css");
+@import url("./modules/row.css");
+@import url("./modules/section-and-article.css");
+@import url("./modules/table.css");
