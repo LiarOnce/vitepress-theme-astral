@@ -6,8 +6,7 @@ export default defineConfig({
     lang: "zh-CN",
     description: "A theme port for VitePress",
     themeConfig: {
-        avatar: "",
-        background: "",
+        avatar: "/images/me.jpg",
     },
     vite: {
         resolve: {

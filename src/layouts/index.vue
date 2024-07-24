@@ -9,7 +9,7 @@
                 </header>
                 <a href="/work" class="jumplink pic">
                     <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-                    <img src="../images/me.jpg" alt="" />
+                    <img :src="theme.avatar" alt="" />
                 </a>
             </article>
             <article id="work" class="panel" v-if="frontmatter.layout == 'work'">
@@ -27,5 +27,5 @@ import { onMounted } from "vue"
 import NavBar from '@src/components/NavBar.vue'
 import Work from '@src/components/Work.vue'
 import Footer from '@src/components/Footer.vue'
-const { site, frontmatter } = useData()
+const { site, frontmatter, theme } = useData()
 </script>
